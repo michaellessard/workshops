@@ -141,6 +141,7 @@ Options de mise à jour SCM
 -------
 
 Cliquez sur ![enregistrer](images/at_save.png)
+Revenez au menu project en cliquant sur project dans le menu de gauche 
 
 Étape 5:
 -------
