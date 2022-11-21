@@ -265,9 +265,9 @@ Le module `win_reboot` provoquera le redémarrage de la machine, puis attendra q
 Résultat final
 --------------
 
-Les commandes Ad-hoc peuvent être utiles à exécuter de temps en temps. L'exemple de l'installation et le demarrage IIS ci-dessus, aurait pu (aurait dû) être écrit dans un playbook au lieu d'être exécuté via une série laborieuse de commandes Ad-hoc. Cette interaction avec des commandes Ad-hoc imite finalement l'exécution de commandes individuelles à partir d'une CLI.
+Les commandes Ad-hoc peuvent être utiles à l'occasion, quand vous avez besoin de faire quelque chose de court et rapide. L'exemple de l'installation et le demarrage IIS ci-dessus, aurait pu (aurait dû) être écrit dans un playbook au lieu d'être exécuté via une série laborieuse de commandes Ad-hoc. Cette interaction avec des commandes Ad-hoc imite finalement l'exécution de commandes individuelles à partir d'une CLI.
 
-Aussi, avez-vous remarqué ceci ? Lorsqu'une tâche est exécutée sur un serveur Windows, Ansible est suffisamment intelligent pour savoir si un redémarrage est nécessaire après l'exécution de cette tâche. L'image ci-dessous est une partie de la sortie de la commande pour supprimer la fonction IIS. La sortie de cette tâche peut être utilisée dans des tâches ultérieures, comme par exemple pour savoir s'il faut ou non redémarrer avant de continuer.
+Aussi, avez-vous remarqué ceci ? Lorsqu'une tâche est exécutée sur un serveur Windows, Ansible est suffisamment intelligent pour savoir si un redémarrage est nécessaire après l'exécution de cette tâche. L'image ci-dessous est une partie du résultat de la commande que vous avez fait plus haut et qui supprime la fonction IIS du serveur Windows. Le résultat de cette tâche peut être utilisée pour affecter les opérations dans des playbook, nous verrons plus tard comme faire. 
 
 ![Reboot required](images/2-adhoc-reboot-required.png)
 <br><br>
