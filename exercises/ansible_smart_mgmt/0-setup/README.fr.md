@@ -54,7 +54,7 @@ Cette étape montre l'exécution de modèles d'emploi. Cependant, cette étape u
 
 Premièrement, vous devrez exécuter le modèle de travail **SETUP / Contrôleur**.
 
-- Cliquez sur le ![launch](images/0-setup-aap2-launch.png) à droite du modèle de travail **SETUP / Contrôleur**.
+- Cliquez sur le ![lancement](images/0-setup-aap2-launch.png) à droite du modèle de travail **SETUP / Contrôleur**.
 
 Vous serez conduit à la fenêtre de sortie **Jobs phy SETUP / Contrôleur** où vous pourrez suivre chaque tâche exécutée dans le cadre du playbook. Cela prendra environ 2 minutes pour terminer.
 
@@ -77,15 +77,15 @@ Courez le **SATELLITE / RHEL - Publier le contenu Voir le modèle d'emploi** en 
 
 Vous serez emmené à la fenêtre de sortie **Jobs SATELLITE / RHEL - Publier un contenu View** où vous pourrez suivre chaque tâche exécutée dans le cadre du playbook. Cela prendra environ 1 min pour terminer.
 
-![publish-cv-rhel](images/0-setup-aap2-publish-cv-rhel.png)
+![publie-cv-rhel](images/0-setup-aap2-publish-cv-rhel.png)
 
-Ensuite, retournez à Templates et exécutez le modèle de travail **CONVERT2RHEL / 01 - Take node snapshot** en cliquant sur le ![launch](images/0-setup-aap2-launch.png) pour lancer.
+Ensuite, retournez à Templates et exécutez le modèle de travail **CONVERT2RHEL / 01 - Take node snapshot** en cliquant sur le ![lancement](images/0-setup-aap2-launch.png) pour lancer.
 
 Vous serez emmené à la fenêtre de sortie **CONVERT2RHEL / 01 - Take node snapshot** où vous pourrez suivre chaque tâche exécutée dans le cadre du playbook. Cela prendra environ 7 minutes pour terminer.
 
 ![node-snapshot-complete](images/0-setup-aap2-node-snapshot-complete.png)
 
-Ensuite, retournez à Templates et exécutez le modèle de travail **SERVER / RHEL7 - S'inscrire** en cliquant sur le ![launch](images/0-setup-aap2-launch.png) pour lancer.
+Ensuite, retournez à Templates et exécutez le modèle de travail **SERVER / RHEL7 - S'inscrire** en cliquant sur le ![lancement](images/0-setup-aap2-launch.png) pour lancer.
 
 - Vous serez présenté avec un sondage. Remplissez ceci comme suit:
 
@@ -101,7 +101,7 @@ Vous serez emmené à la fenêtre de sortie **SERVER / RHEL7 - S'inscrire** où 
 
 ![rhel-register-complete](images/0-setup-aap2-rhel-register-complete.png)
 
-Ensuite, retournez à Templates et exécutez le modèle de travail **SERVER / CentOS7 - Enregistrer** en cliquant sur le ![launch](images/0-setup-aap2-launch.png) pour lancer.
+Ensuite, retournez à Templates et exécutez le modèle de travail **SERVER / CentOS7 - Enregistrer** en cliquant sur le ![lancement](images/0-setup-aap2-launch.png) pour lancer.
 
 - Vous serez présenté avec un sondage. Remplissez ceci comme suit:
 
@@ -117,7 +117,7 @@ Vous serez emmené à la fenêtre de sortie **SERVER / CentOS7 - Enregistrer** o
 
 ![centos-register-complete](images/0-setup-aap2-centos-register-complete.png)
 
-Ensuite, retournez à Templates et exécutez le modèle de travail **EC2 / Set instance tags based on Satellite(Foreman) facts** en cliquant sur le ![launch](images/0-setup-aap2-launch.png) pour lancer.
+Ensuite, retournez à Templates et exécutez le modèle de travail **EC2 / Set instance tags based on Satellite(Foreman) facts** en cliquant sur le ![lancement](images/0-setup-aap2-launch.png) pour lancer.
 
 Vous serez conduit à la fenêtre de sortie **EC2 / Set instance tags based on Satellite(Foreman) facts** où vous pourrez suivre chaque tâche exécutée dans le cadre du playbook. Cela prendra environ 1 min pour terminer.
 
@@ -125,7 +125,7 @@ Vous serez conduit à la fenêtre de sortie **EC2 / Set instance tags based on S
 
 > **REMARQUE** Pour le modèle d'emploi suivant, consultez la section **Variables** du modèle, en payant une note particulière au **group_tag_map** variable. Une cartographie des nœuds aux noms de groupe est définie. Les balises EC2 pour ces noms de groupe seront assignées aux noeuds définis et cela sera utilisé plus tard par la construction d'inventaire dynamique pour construire des groupes d'inventaires ansibles contenant les noeuds définis, c'est-à-dire. "frontends", "apps", "appdbs".
 
-Ensuite, exécutez le modèle de travail **EC2 / Set instance tag - AnsibleGroup** en cliquant sur le ![launch](images/0-setup-aap2-launch.png) pour lancer.
+Ensuite, exécutez le modèle de travail **EC2 / Set instance tag - AnsibleGroup** en cliquant sur le ![lancement](images/0-setup-aap2-launch.png) pour lancer.
 
 Vous serez emmené à la fenêtre de sortie **EC2 / Set instance tag - AnsibleGroup** où vous pourrez suivre chaque tâche exécutée dans le cadre du playbook. Cela prendra environ 1 min pour terminer.
 
@@ -141,7 +141,7 @@ Vous serez emmené à la fenêtre de sortie **EC2 / Set instance tag - AnsibleGr
 >
 > Notez que ces inventaires doivent encore être peuplés. En outre, pendant que vous êtes dans chacun de ces inventaires, cliquez sur le bouton « Sources » et examinez comment chacun de ces inventaires de sources dynamiques sont configurés, en prenant note de la section « SOURCE VARIABLES » pour comprendre comment les hôtes et les groupes qui en résultent pour cet inventaire sont peuplés.
 
-Ensuite, retournez à Templates et exécutez le modèle de travail **CONTROLLER / Mise à jour des inventaires via des sources dynamiques** en cliquant sur le ![launch](images/0-setup-aap2-launch.png) pour lancer.
+Ensuite, retournez à Templates et exécutez le modèle de travail **CONTROLLER / Mise à jour des inventaires via des sources dynamiques** en cliquant sur le ![lancement](images/0-setup-aap2-launch.png) pour lancer.
 
 - Vous serez présenté avec un sondage. Remplissez ceci comme suit:
 
@@ -157,7 +157,7 @@ Ensuite, retournez à Templates et exécutez le modèle de travail **CONTROLLER 
 
 ![rhel-inventory-complete](images/0-setup-aap2-rhel-inventory-complete.png)
 
-Exécutez le modèle de travail **CONTROLLER / Mise à jour des inventaires via des sources dynamiques** en cliquant sur le ![launch](images/0-setup-aap2-launch.png) pour le lancer.
+Exécutez le modèle de travail **CONTROLLER / Mise à jour des inventaires via des sources dynamiques** en cliquant sur le ![lancement](images/0-setup-aap2-launch.png) pour le lancer.
 
 - Vous serez présenté avec un sondage. Remplissez ceci comme suit:
 
@@ -202,4 +202,4 @@ Ensuite, connectez-vous à Satellite pour effectuer la vérification.
 #### 4\. Fin de l’exercice
 
 - Vous avez terminé cet exercice
-- Continuer à [Exercise 1: Compliance / Vulnerability Management](../1-compliance/README.fr.md), OU [Return to the main workshop page](../README.fr.md)
+- Continuer à [Exercice 1: Conformité / Gestion de la vulnérabilité](../1-compliance/README.fr.md), OU [Retour à la page principale de l'atelier](../README.fr.md)

@@ -34,7 +34,7 @@ Exercice
 
 - Une fois dans la plateforme d'automatisation, vous pourrez voir un tableau de bord
 
-![dashboard](images/2-patching-aap2-dashboard.png)
+![tableau de bord](images/2-patching-aap2-dashboard.png)
 
 #### 2\. Création d'un nouveau flux de travail de Patching
 
@@ -88,17 +88,17 @@ Vous pouvez maintenant sauvegarder et sortir le modèle de workflow.
 
 - Utilisez un navigateur web sur votre ordinateur pour accéder à l'interface satellite via le lien trouvé dans l'environnement ci-dessus
 
-![Satellite login](images/2-patching-aap2-Satellite-login.png)
+![Accès par satellite](images/2-patching-aap2-Satellite-login.png)
 
 - Une fois dans Satellite, vous pourrez voir un tableau de bord.
 
-![Satellite dashboard](images/2-patching-aap2-Satellite-dashboard.png)
+![Tableau de bord par satellite](images/2-patching-aap2-Satellite-dashboard.png)
 
 #### 4\. Exploring the Satellite host configuration
 
 - Hover over 'Hosts' et sélectionnez 'Content Hosts'. Observer la sécurité multiple, correction de bugs, améliorations et mises à jour de paquets disponibles pour chaque serveur, qui variera selon la date de l'atelier. De plus, prenez note de l'environnement du cycle de vie.
 
-![Satellite content hosts](images/2-patching-aap2-Satellite-contenthosts.png)
+![Hébergeurs de contenu satellite](images/2-patching-aap2-Satellite-contenthosts.png)
 
 
 - Naviguez sur 'Content' et sélectionnez 'Content Views'. Puisque les serveurs avec lesquels nous travaillons sont RHEL7 sélectionnez la vue sur le contenu RHEL7. Nous avons peut-être besoin de publier une nouvelle version de vision du contenu, cependant, nous avons installé cela dans le cadre de notre workflow! (Note : votre version de vue de contenu peut différer de cet exemple, c'est OK)
@@ -123,13 +123,13 @@ Vous pouvez maintenant sauvegarder et sortir le modèle de workflow.
 
 - Naviguez aux hôtes Tous les hôtes et sélectionnez node1.example.com. Sélectionnez l'onglet « contenu » sous Détails. Notez que la errata installable a diminué. Cela indique que nous avons appliqué nos mises à jour.
 
-![errata reduced](images/2-patching-aap2-Satellite-reduced-installable-errata.png)
+![errata réduite](images/2-patching-aap2-Satellite-reduced-installable-errata.png)
 
 - Vous pouvez remarquer que toutes les questions ne sont pas corrigées. Ceci est pour mettre en valeur que vous pouvez exclure les mises à jour basées sur le type. Dans ce cas, nous ne repousserons pas les mises à jour pour les modifications du noyau. Cela peut bien sûr être configurable par l'utilisation du module yum dans le patch serveur
 
-![kernel patches excluded](images/2-patching-aap2-server-patching-kernel-exclude.png)
+![patchs du noyau exclus](images/2-patching-aap2-server-patching-kernel-exclude.png)
 
 #### 7\. End Lab
 
 - Tu as fini le labo.
-- Continuer à [Exercise 3: CentOS/RHEL migration and upgrade](../3-convert2rhel/README.fr.md), OU [Return to the main workshop page](../README.fr.md)
+- Continuer à [Exercice 3: CentOS/RHEL migration et mise à niveau](../3-convert2rhel/README.fr.md), OU [Retour à la page principale de l'atelier](../README.fr.md)

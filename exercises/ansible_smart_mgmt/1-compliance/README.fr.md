@@ -211,4 +211,4 @@ Policy_scan:
 #### 9\. End Lab
 
 - Tu as fini le labo.
-- Continuer à [Exercise 2: Patch Management / OS](../2-patching/README.fr.md), OU [Return to the main workshop page](../README.fr.md)
+- Continuer à [Exercice 2: Gestion du Patch / OS](../2-patching/README.fr.md), OU [Retour à la page principale de l'atelier](../README.fr.md)
