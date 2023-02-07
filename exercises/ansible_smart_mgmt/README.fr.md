@@ -52,7 +52,7 @@ Cela dit, les exercices eux-mêmes devraient prendre environ 4 heures. Chaque la
 
 ## Atelier Exercices
 
-* [Exercise 0: Configuring the Lab Environment](0-setup/README.fr.md
-* [Exercise 1: Compliance / Vulnerability Management](1-compliance/README.fr.md
-* [Exercise 2: Patch Management / OS](2-patching/README.fr.md
-* [Exercise 3: CentOS to RHEL conversion](3-convert2rhel/README.fr.md
+* [Exercise 0: Configuring the Lab Environment](0-setup/README.fr.md)
+* [Exercise 1: Compliance / Vulnerability Management](1-compliance/README.fr.md)
+* [Exercise 2: Patch Management / OS](2-patching/README.fr.md)
+* [Exercise 3: CentOS to RHEL conversion](3-convert2rhel/README.fr.md)

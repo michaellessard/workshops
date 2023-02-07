@@ -202,4 +202,4 @@ Ensuite, connectez-vous à Satellite pour effectuer la vérification.
 #### 4\. Fin de l’exercice
 
 - Vous avez terminé cet exercice
-- Continuer à [Exercise 1: Compliance / Vulnerability Management](../1-compliance/README.fr.md, OU [Return to the main workshop page](../README.fr.md
+- Continuer à [Exercise 1: Compliance / Vulnerability Management](../1-compliance/README.fr.md), OU [Return to the main workshop page](../README.fr.md)

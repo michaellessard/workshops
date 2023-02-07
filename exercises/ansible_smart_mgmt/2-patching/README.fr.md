@@ -132,4 +132,4 @@ Vous pouvez maintenant sauvegarder et sortir le modèle de workflow.
 #### 7\. End Lab
 
 - Tu as fini le labo.
-- Continuer à [Exercise 3: CentOS/RHEL migration and upgrade](../3-convert2rhel/README.fr.md, OU [Return to the main workshop page](../README.fr.md
+- Continuer à [Exercise 3: CentOS/RHEL migration and upgrade](../3-convert2rhel/README.fr.md), OU [Return to the main workshop page](../README.fr.md)
